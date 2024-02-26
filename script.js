@@ -6,7 +6,7 @@ function main() {
 		event.preventDefault()
 		const nome = event.target.querySelector("input").value
 		const ola = document.querySelector("#ola")
-		ola.innerText = `Olá, ${nome}`
+		ola.innerHTML = `<img src="${nome}" />`
 	}
 	console.log("aaaaa")
 }
